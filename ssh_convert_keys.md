@@ -14,6 +14,8 @@ in, but the -p (for changing the password)
 Baiscally we request changing the password together with the -m parameter (for the format of the key), so ssh-keygen will change the password and store the key in the same file but with a different format. 
 
 
+Even so..., I could'n get the keys to work with putty. I ended up using puttygen anyway.
+
 Ex:
 
 ssh-keygen -p -m -f user_key.file
